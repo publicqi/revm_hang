@@ -1,7 +1,9 @@
-This hangs:
+These hangs:
 
-cargo test -- --nocapture
+`cargo test -- --nocapture`
+
+`cargo run hang`
 
 This does not:
 
-cargo run
+`cargo run nohang`
