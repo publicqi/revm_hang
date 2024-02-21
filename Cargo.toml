@@ -5,11 +5,11 @@ edition = "2021"
 
 [[bin]]
 name = "revm_hang"
-path = "src/lib.rs"
+path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 ethers-providers = "2.0.13"
-revm = { version = "3.5.0", features = ["ethersdb"] }
+revm = { version = "6.0.0", features = ["ethersdb"] }
 tokio = "1.36.0"
